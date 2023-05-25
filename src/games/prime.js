@@ -1,5 +1,5 @@
 import getRandomInt from '../utils.js';
-import runGame, { numOfRounds } from '../coreLogic.js';
+import runGame from '../coreLogic.js';
 
 const description = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 

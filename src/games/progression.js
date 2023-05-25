@@ -1,5 +1,5 @@
 import getRandomInt from '../utils.js';
-import runGame, { numOfRounds } from '../coreLogic.js';
+import runGame from '../coreLogic.js';
 
 const arProgressionLength = 10;
 const description = 'What number is missing in the progression?';
@@ -24,7 +24,7 @@ const makeRound = () => {
 };
 
 const runArProgressionGame = () => {
-    runGame(makeRound, description);
+  runGame(makeRound, description);
 };
 
 export default runArProgressionGame;

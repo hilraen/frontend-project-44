@@ -1,5 +1,5 @@
 import getRandomInt from '../utils.js';
-import runGame, { numOfRounds } from '../coreLogic.js';
+import runGame from '../coreLogic.js';
 
 const description = 'Find the greatest common divisor of given numbers.';
 
