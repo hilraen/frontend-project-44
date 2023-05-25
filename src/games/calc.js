@@ -32,11 +32,7 @@ const makeRound = () => {
 };
 
 const runCalcGame = () => {
-  const rounds = [];
-  for (let i = 0; i < numOfRounds; i += 1) {
-    rounds[i] = makeRound();
-  }
-  return runGame(rounds, description);
+  runGame(makeRound, description);
 };
 
 export default runCalcGame;
