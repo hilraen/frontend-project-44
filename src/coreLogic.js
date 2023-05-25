@@ -10,7 +10,7 @@ const runGame = (rounds, description) => {
   for (let i = 0; i < numOfRounds; i += 1) {
     const [question, correctAnswer] = rounds[i];
     console.log(`Question: ${question}`);
-    const userAnswer = readlineSync.question('You answer: ');
+    const userAnswer = readlineSync.question('Your answer: ');
     if (userAnswer === correctAnswer) {
       console.log('Correct!');
     } else {
